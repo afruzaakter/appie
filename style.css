@@ -1,0 +1,797 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #fff;
+}
+
+/* header part start */
+#TopBar{
+    display: flex;
+    background-color: darkblue;
+    
+}
+.TopBarFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    width: 97%;
+    margin: 0 auto;
+    background-color: darkblue;
+    padding: 25px;
+    position: fixed;
+    z-index: 9999999;
+}
+
+
+.logoAndMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.loginbtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px; 
+}
+.loginbtn .login a i{
+    color: wheat;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: transparent;
+    list-style: none;
+}
+.loginbtn .login a{
+    color: wheat;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: transparent;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    
+}
+button#getstarted{
+    padding: 0px 30px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #ff6b58;
+    border-radius: 6px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    transition: 0 0.4s ease-out 0s;
+    line-height: 45px;
+    cursor: pointer;
+    user-select: none;
+    z-index: 5;
+    display: inline-block;
+}
+ button#getstarted:hover{
+    border-color: #ff6b58;
+    color: #ff6b58;
+    background-color: darkblue;
+    border: 1px solid #ff6b58;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-left: 50px;
+    gap: 25px;
+    
+}
+.menu ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
+/* header part end */
+/*body part-1 way to creative ... start*/
+.HomeSlider{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    background-color: darkblue;
+    width: 100%;
+}
+.HomeSlider h1{
+    margin-top: 95px;
+    color: #fff;
+    font-size: 70px;
+    line-height: 80px;
+    padding: 42px 279px;   
+}
+.HomeSlider p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.5;
+    margin-bottom: 18px;
+}
+#GetQuote{
+    border-color: #ff6b58;
+    color: #ff6b58;
+    background: transparent;
+    margin-right: 14px;
+    line-height: 45px;
+    cursor: pointer;
+    padding: 0px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    border-radius: 6px;
+    margin-bottom: 234px;
+}
+
+.btnandvd a i{
+    height: 45px;
+    width: 45px;
+    color: #fff;
+    line-height: 42px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.btnandvd a{
+    color: #fff;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+} 
+
+/*body part-1  way to creative ... end*/
+/*body part-2  way to creative ... start*/
+#Services{
+    
+    margin-top: 40px;
+}
+.Servicespart{
+    text-align: center;
+    z-index: 999;
+    position: static;
+}
+.Servicespart img{
+      
+      margin-top: -172px;
+      object-fit: cover;
+      width: 70%;
+     
+}
+.ServicesText{
+    text-align: center;
+}
+.ServicesText h1{
+    font-size: 44px;
+    line-height: 54px;
+    color: #0e1133;
+}
+.ServicesText p{
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.7;
+    margin-top: 15px;
+}
+.appieIconPart{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 97px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.appieIcon{
+  text-align: center;
+}
+.appieIcon .icon{
+    height: 70px;
+    width: 70px;
+    background-color: #ff5f4a;
+   border-radius: 50%;
+   position: relative;
+   margin-left: 7px;
+   margin-top: 10px;
+   display: inline-block;
+} 
+.appieIcon .icon a i{
+    color: wheat;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+.icon_1{
+    height: 70px;
+    width: 70px;
+    background-color: #2799f6;
+   border-radius: 50%;
+   position: relative;
+   margin-left: 136px;
+   margin-top: 10px;
+}
+.icon_1 a i{
+    color: wheat;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.icon_2{
+    height: 70px;
+    width: 70px;
+    background-color: #f2335b;
+   border-radius: 50%;
+   position: relative;
+   margin-left: 138px;
+   margin-top: 10px;
+}
+.icon_2 a i{
+    color: wheat;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+.icon_3{
+    height: 70px;
+    width: 70px;
+    background-color: #7759ed;
+   border-radius: 50%;
+   position: relative;
+   margin-left: 128px;
+   margin-top: 10px;
+}
+.icon_3 a i{
+    color: wheat;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+.iconpart{
+    background-color: wheat;
+}
+
+.appieIcon h2{
+   padding: 15px;
+}
+.appieIcon p span{
+    margin-left: 12px;
+}
+.appieIcon p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #505056;
+   margin-bottom: 22px;
+}
+.appieIcon .btn a{
+    list-style: none;
+    text-decoration: none;
+    margin-left: 15px;
+    color: #505056;
+    border: none;
+}
+.appieIcon .btn a:hover{
+    color: #ff5f4a;
+}
+
+/*body part-2  way to creative ... end*/
+/*body part-3  Get started with Appie Template. ... start*/
+#appieTemplate{
+    
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.appietemplate{
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 26px;
+    margin-left: 64px;
+    margin-right: 64px;
+    padding: 25px;
+}
+.appieTemp{
+    color: #fff;
+    margin-left: 25px;
+    
+}
+.appieTemH{
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+.appieTemH h1{
+    font-size: 44px;
+    line-height: 54px;
+    padding-bottom: 23px;
+    margin-top: -35px;
+}
+.appieTemp p{
+    opacity: 0.8;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.appieARU{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 25px;
+}
+.Review h2{
+    font-size: 30px;
+}
+.Review p{
+    font-size: 14px;
+    color: #a4a4b9;
+}
+.appieImage img{
+   width: 100%; 
+   margin-left: 50px;
+}  
+
+.VideoP{
+    height: 70px;
+    width: 70px;
+    line-height: 42px;
+    top: 100px;
+    text-align: center;
+    margin-left:500px;
+    border-radius: 50%;
+    background: cornsilk;
+    position: relative;
+    z-index: 5;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+.VideoP a i{
+    color: #ff5f4a;
+    padding: 23px;
+    font-size: 25px;
+}
+/*body part-3  Get started with Appie Template. ... end*/
+
+/* body part-4  Appie lets you launch your app in minutes.. ... start */
+#services_1{
+    width: 85%;
+    margin-left: 73px;
+    margin-top: 115px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+.Design{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.appieTemH h3{
+    font-size: 44px;
+    line-height: 54px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: #0e1133;
+    margin: 0px;
+    margin-bottom: 25px;
+}
+.appieTemH h4{
+    opacity: 0.8;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif;
+    color: #0e1133;
+}
+.appieIcon p span{
+    margin-right: 89px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #505056;
+}
+  .appieIcon .picon{
+      height: 50px;
+      width: 50px;
+      background-color: #2b70fa;
+     border-radius: 50%;
+     position: relative;
+     margin-right: 131px;
+     margin-bottom: 10px;
+     display: inline-block;
+     box-shadow: 0px 6px 10px 0px rgb(16);
+  } 
+  .appieIcon .picon a i{
+      color: wheat;
+      text-align: center;
+      font-size: 20px;
+      padding: 15px;
+  }
+  .appieIcon .picon_1{
+    height: 50px;
+    width: 50px;
+    background-color: #31c369;
+   border-radius: 50%;
+   position: relative;
+   margin-right: 112px;
+   margin-bottom: 10px;
+   display: inline-block;
+   box-shadow: 0px 6px 10px 0px rgb(16);
+} 
+.appieIcon .picon_1 a i{
+    color: wheat;
+    text-align: center;
+    font-size: 23px;
+    padding: 15px;
+}
+.button{
+    margin-top: 90px;
+    margin-left: 50px;
+    
+}
+.button a{
+    text-decoration: none;
+    color: #0e1133;
+    font-family: "Roboto", sans-serif;
+    
+}
+.button a:hover{
+ background-color: #0056b3;
+ color: #fff;
+ font-family: "Roboto", sans-serif;
+ padding: 15px 30px;
+ border-radius: 8px;
+}
+/* body part-4  Appie lets you launch your app in minutes.. ... end */
+
+/* body part-5  Browse over 40k Apps over the world.. ... start */
+.appieIcon h5{
+    font-size: 25px;
+    line-height: 54px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #0e1133;
+    margin: 0px;
+    margin-bottom: 7px;
+}
+
+/* body part-5  Browse over 40k Apps over the world.. ... end */
+/* body part-6  Download app today!. ... start */
+
+.appieTemHD{
+    text-align: center;
+    margin-top: 85px;
+    margin-bottom: 100px;
+}
+.appieTemHD h1{
+    font-size: 44px;
+    line-height: 54px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    color: #0e1133;
+    margin: 0px;
+    margin-bottom: 25px;
+}
+.appieTemHD p{
+    opacity: 0.8;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif;
+    color: #0e1133;
+}
+.android{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin-bottom: 80px;
+    margin-left: 145px;
+}
+ .app h4{
+        font-size: 34px;
+        font-weight:700;
+        margin-bottom: 8px;
+        color: #0e1133;   
+}
+.app p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #505056;
+    margin: 0px;
+    margin-bottom: 30px;  
+}
+
+
+.main-btn a{
+    text-decoration: none;
+    color: #0e1133;
+    padding: 10px 15px;
+    
+}
+.main-btn a:hover{
+    background-color: #ff6b58;
+    padding: 15px;
+    border-radius: 6px;
+    color: #fff;
+    transition: 1s;
+}
+.main-btn-1 a{
+    background-color: #ff6b58;
+    padding: 15px;
+    border-radius: 6px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+.main-btn-1 a:hover{
+    color: #0e1133;
+    background: none;
+    transition: 1s;
+}
+.androidImg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   width: 85%;
+   margin-left: 110px;
+}
+
+/* body part-6  Download app today!. ... end */
+
+/*-- body part-7  Latest blog posts. ... start */
+.team{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 135px;
+    margin-left: 141px;
+}
+.teamPart{
+    display: flex;
+    gap: 30px;
+}
+.title h5{
+    font-size: 22px;
+    font-weight:800;
+    margin-bottom: 10px;
+    color: #0e1133; 
+}
+.title h5:hover{
+color: #fa5c47;
+transition: 1s;
+cursor: pointer;
+}
+.title p{
+    font-size: 18px;
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 300;
+    opacity: 0.7;
+}
+.title p span{
+    margin-left: 40px;
+}
+.teamPart img{
+    transition: .3s;
+    cursor: pointer;
+    overflow: hidden;
+}
+.view-btn{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.view-btn a{
+    text-decoration: none;
+    color: #0e1133;
+    padding: 10px 15px;
+}
+.view-btn a:hover{
+    background-color: #ff6b58;
+    padding: 15px 20px;
+    border-radius: 6px;
+    color: #fff;
+    transition: 1s;
+}
+/*-- body part-7  Latest blog posts. ... end */
+/*-- body part-8  Start your project with Appie... start */
+
+.BGProject{
+    background-color: #ff6b58;
+    border-radius: 26px;
+    margin-left: 114px;
+    margin-bottom: 100px;
+    height: 180px;
+    padding: 25px;
+    width: 80%;
+}
+.Project{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Project h1{
+color: #fff;
+font-size: 46px;
+line-height: 56px;
+padding: 15px;
+}
+.Lbtn{
+    margin-right: 56px;
+}
+.Lbtn a{
+text-decoration: none;
+color: #0e1133;
+padding: 15px 27px;
+background-color: #ffF;
+border-radius: 5px;
+}
+.Lbtn a:hover{
+    color: blue;
+    border: 1px solid blue;
+}
+
+/*-- body part-8  Start your project with Appie... end */
+
+/*--  part-9  footer part. ... start */
+.footerpart{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 106px;
+    width: 94%;
+    gap: 33px;
+}
+
+.social p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #505056;
+    line-height: 24px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.social a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #0e1133;
+    opacity: 0.8;
+}
+.Sicon ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.social .Sicon ul li{
+    list-style: none;
+}
+.social .Sicon ul li a i{
+  font-size: 22px;
+  margin-top: 30px;
+}
+.social .Sicon ul li a:hover i{
+    height: 20px;
+    width: 20px;
+    color: #fff;
+    background-color: #ff5f4a;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.Fmenu h5{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    font-family: "Roboto",sans-serif;
+    color: #0e1133;
+}
+.Fmenu ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #505056;
+}
+.Fmenu ul li {
+    
+    padding: 8px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;   
+}
+.Fmenu ul li a:hover{
+    color: #ff5f4a;
+}
+.Support h5{
+    font-size: 20px;
+    color: #0e1133;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: "Roboto",sans-serif;
+}
+.Support ul li{
+    list-style: none;
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.Support ul li a{
+text-decoration: none;
+color: #505056;
+}
+.Support ul li a:hover{
+    color: #ff5f4a;
+}
+
+.Contact h5{
+ font-size: 20px;
+ font-weight: 700;
+ color: #0e1133;
+ margin-bottom: 18px;
+ font-family: "Roboto", sans-serif;
+}
+.Contact ul li{
+    list-style: none;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.Contact ul li a{
+    color: #505056;
+    text-decoration: none;
+    margin-bottom: 18px;
+}
+.Contact ul li a span{
+    margin-left: 19px;
+}
+.Fcopyright{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 73px;
+    margin-top: 80px;
+    gap: 308px;
+    margin-bottom: 50px;
+    width: 166%;
+}
+.copyright{
+    font-size: 16px;
+    font-weight: 400;
+    color: #505056;
+    line-height: 24px;
+    opacity: 0.8;
+    margin-left: 50px;
+}
+.download ul{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.download ul li{
+    list-style: none;
+}
+.download ul li{
+    background: #ffffff;
+  
+    line-height: 40px;
+    padding: 0 23px;
+    border-radius: 6px;
+    border: 2px solid #fff;
+}
+.download ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #505056;
+    line-height: 40px;
+}
+.download ul li a i{
+    font-size: 25px;
+    margin-right: 5px;
+}
+/*--  part-9  footer part. ... end */
