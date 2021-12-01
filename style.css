@@ -10,12 +10,14 @@ body{
     font-weight: normal;
     font-style: normal;
     background-color: #fff;
+    overflow-x: hidden;
 }
 
 /* header part start */
 #TopBar{
     display: flex;
     background-color: darkblue;
+   
     
 }
 .TopBarFlex{
@@ -50,6 +52,7 @@ body{
     text-decoration: none;
     background-color: transparent;
     list-style: none;
+    padding: 5px;
 }
 .loginbtn .login a{
     color: wheat;
@@ -58,10 +61,10 @@ body{
     background-color: transparent;
     list-style: none;
     font-family: "Roboto", sans-serif;
-    
+    padding: 10px;
 }
 button#getstarted{
-    padding: 0px 30px;
+     padding: 0px 20px;
     color: #fff;
     font-size: 15px;
     font-weight: 500;
@@ -82,6 +85,7 @@ button#getstarted{
     color: #ff6b58;
     background-color: darkblue;
     border: 1px solid #ff6b58;
+   
 }
 
 .menu ul{
@@ -674,10 +678,12 @@ border-radius: 5px;
 }
 .social .Sicon ul li{
     list-style: none;
+    padding: 10px;
 }
 .social .Sicon ul li a i{
   font-size: 22px;
   margin-top: 30px;
+  padding: 10px;
 }
 .social .Sicon ul li a:hover i{
     height: 20px;
