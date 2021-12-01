@@ -4,6 +4,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: "Roboto", sans-serif;
@@ -25,7 +26,7 @@ body{
     justify-content: space-between;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    width: 97%;
+    width: 100%;
     margin: 0 auto;
     background-color: darkblue;
     padding: 25px;
@@ -801,3 +802,33 @@ align-items: center;
     margin-right: 5px;
 }
 /*--  part-9  footer part. ... end */
+/*-- Responsive Design--*/
+
+ @media screen and (max-width:700px){
+ .appieIconPart{
+     grid-template-columns: repeat(1, 1fr);
+ }
+ .HomeSlider{
+    padding: 10px;
+    text-align: start;
+ }
+ .HomeSlider h1{
+font-size: 30px;
+
+ }
+ .appietemplate{
+    padding: 20px;
+    margin-right: 80px;
+ }
+ .appieTemH h1{
+  font-size: 30px; 
+
+ }
+ .appietemplate p{
+     font-size: 13px;   
+ }
+ .appieARU{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+ }
+ }
