@@ -368,6 +368,7 @@ button#getstarted{
     justify-content: space-between;
     align-items: center;
     margin-top: 40px;
+    gap: 26px;
 }
 .appieTemH h3{
     font-size: 44px;
@@ -387,22 +388,18 @@ button#getstarted{
     color: #0e1133;
 }
 .appieIcon p span{
-    margin-right: 89px;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     color: #505056;
 }
   .appieIcon .picon{
-      height: 50px;
-      width: 50px;
       background-color: #2b70fa;
      border-radius: 50%;
      position: relative;
-     margin-right: 131px;
      margin-bottom: 10px;
      display: inline-block;
-     box-shadow: 0px 6px 10px 0px rgb(16);
+     
   } 
   .appieIcon .picon a i{
       color: wheat;
@@ -581,7 +578,7 @@ cursor: pointer;
     opacity: 0.7;
 }
 .title p span{
-    margin-left: 40px;
+    margin-left: 25px;
 }
 .teamPart img{
     transition: .3s;
@@ -660,7 +657,7 @@ border-radius: 5px;
 }
 .social a{
     text-decoration: none;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 500;
     color: #0e1133;
     opacity: 0.8;
@@ -669,23 +666,22 @@ border-radius: 5px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-.social .Sicon ul li{
+ .Sicon ul li{
     list-style: none;
-    padding: 10px;
+  
 }
-.social .Sicon ul li a i{
+ .Sicon ul li a i{
   font-size: 22px;
   margin-top: 30px;
   padding: 10px;
 }
-.social .Sicon ul li a:hover i{
-    height: 20px;
-    width: 20px;
+ .Sicon ul li a:hover{
+  
     color: #fff;
     background-color: #ff5f4a;
-    border-radius: 10px;
+    border-radius: 10%;
     text-align: center;
-    padding: 10px;
+    padding: 8px 8px;
 }
 .Fmenu h5{
     font-size: 20px;
