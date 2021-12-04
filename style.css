@@ -302,11 +302,11 @@ button#getstarted{
     margin-left: 25px;
     
 }
-.appieTemH{
+.appieTemHeader{
     margin-right: 25px;
     margin-bottom: 25px;
 }
-.appieTemH h1{
+.appieTemHeader h1{
     font-size: 44px;
     line-height: 54px;
     padding-bottom: 23px;
@@ -408,15 +408,12 @@ button#getstarted{
       padding: 15px;
   }
   .appieIcon .picon_1{
-    height: 50px;
-    width: 50px;
     background-color: #31c369;
    border-radius: 50%;
    position: relative;
-   margin-right: 112px;
    margin-bottom: 10px;
    display: inline-block;
-   box-shadow: 0px 6px 10px 0px rgb(16);
+  
 } 
 .appieIcon .picon_1 a i{
     color: wheat;
@@ -817,11 +814,24 @@ align-items: center;
    .loginbtn{
        flex-direction: column;
    } */
-   h1, h2, h3, h4, h5, h6{
+   h1, h2, h3, h4, h5, h6, p{
        text-align: center;
+   }
+   h1{
+       font-size: 40px;
    }
 .container{
     width: auto;
+}
+.BG{
+    width: 100%;
+    background-color: darkblue;
+}
+.HomeSlider h1{
+    text-align: start;
+    font-size: 40px;
+    padding: 38px 36px;
+    line-height: 40px;
 }
  .appieIconPart{
      display: grid;
@@ -836,56 +846,95 @@ font-size: 30px;
 
  }
  .appietemplate{
-    padding: 20px;
-    margin-right: 80px;
+  margin-left: 20px;
+  margin-right: 20px;    
  }
- .appieTemH h1{
-  font-size: 30px; 
-
+ .appieImage{
+    display: none;
+}
+ .appieTemHeader h1{
+     font-size: 30px;
  }
+ .appieTemHeader{
+  text-align: center;
+  padding: 10px;
+  margin-right: 309px;
+ }
+ .row{
+    flex-direction: column;
+    text-align: center;
+}
+.appieTemH h3{
+    font-size: 30px;
+    line-height: 40px;
+}
+.appieTemH p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
  .appietemplate p{
      font-size: 13px;   
  }
  .appieARU{
      display: grid;
      grid-template-columns: repeat(1, 1fr);
+     margin-right: 316px;
+ }
+ .Review{
+     text-align: center;
+     align-items: center;
  }
  .Design{
      display: grid;
      grid-template-columns: repeat(1, 1fr);
+     text-align: center;
+ }
+ .phoneImage img{
+     width: 70%;
  }
  .androidImg{
      display: grid;
      grid-template-columns: repeat(1, 1fr);
      margin-bottom: 25px;
  }
- 
- .appieImage{
-     display: none;
+ .app img{
+width: 50%;
  }
+ 
 .android{
     display: grid;
     grid-template-columns: repeat(1, 1fr); 
+    text-align: center;
 }
-.row{
-    display: grid;
-    grid-template-columns: repeat(1, fr);
-}
+
 .team{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
 .teamPart{
     flex-direction: column;
+    align-items: center;
 }
 .teamPart img{
     width: 50%;
-    align-items: center;
-    margin-right: 50px;
+    
+}
+.BGProject{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .Project{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+   flex-direction: column;
+}
+.Project h1{
+    font-size: 35px;
+    line-height: 46px;
+    margin-bottom: 30px;
+}
+.Lbtn{
+    margin-bottom: 25px;
+    margin-left: 25px;
 }
 .footerpart{
     display: grid;
