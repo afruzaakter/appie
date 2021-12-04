@@ -13,7 +13,10 @@ body{
     background-color: #fff;
     overflow-x: hidden;
 }
-
+.container{
+    width: 80%;
+    margin: auto;
+}
 /* header part start */
 #TopBar{
     display: flex;
@@ -105,16 +108,19 @@ button#getstarted{
 }
 /* header part end */
 /*body part-1 way to creative ... start*/
+#BG{
+    background-color: darkblue;
+    width: 100%;
+}
 .HomeSlider{
     text-align: center;
     font-family: "Roboto", sans-serif;
-    background-color: darkblue;
-    width: 100%;
+  
 }
 .HomeSlider h1{
     margin-top: 95px;
     color: #fff;
-    font-size: 70px;
+    font-size: 58px;
     line-height: 80px;
     padding: 42px 279px;   
 }
@@ -164,7 +170,6 @@ button#getstarted{
 }
 .Servicespart{
     text-align: center;
-    z-index: 999;
     position: static;
 }
 .Servicespart img{
@@ -192,20 +197,16 @@ button#getstarted{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 97px;
-    width: 100%;
-    margin-bottom: 40px;
+    gap: 70px;
 }
 .appieIcon{
   text-align: center;
 }
 .appieIcon .icon{
-    height: 70px;
-    width: 70px;
+   
     background-color: #ff5f4a;
    border-radius: 50%;
    position: relative;
-   margin-left: 7px;
-   margin-top: 10px;
    display: inline-block;
 } 
 .appieIcon .icon a i{
@@ -215,13 +216,10 @@ button#getstarted{
     padding: 20px;
 }
 .icon_1{
-    height: 70px;
-    width: 70px;
     background-color: #2799f6;
    border-radius: 50%;
    position: relative;
-   margin-left: 136px;
-   margin-top: 10px;
+   display: inline-block;
 }
 .icon_1 a i{
     color: wheat;
@@ -231,13 +229,11 @@ button#getstarted{
 }
 
 .icon_2{
-    height: 70px;
-    width: 70px;
+ 
     background-color: #f2335b;
    border-radius: 50%;
    position: relative;
-   margin-left: 138px;
-   margin-top: 10px;
+  display: inline-block;
 }
 .icon_2 a i{
     color: wheat;
@@ -246,13 +242,10 @@ button#getstarted{
     padding: 20px;
 }
 .icon_3{
-    height: 70px;
-    width: 70px;
     background-color: #7759ed;
    border-radius: 50%;
    position: relative;
-   margin-left: 128px;
-   margin-top: 10px;
+   display: inline-block;
 }
 .icon_3 a i{
     color: wheat;
@@ -268,7 +261,7 @@ button#getstarted{
    padding: 15px;
 }
 .appieIcon p span{
-    margin-left: 12px;
+    margin-left: 8px;
 }
 .appieIcon p{
     font-size: 16px;
@@ -298,11 +291,10 @@ button#getstarted{
 
 .appietemplate{
     background-color: blue;
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: start;
+  align-items: center;
     border-radius: 26px;
-    margin-left: 64px;
-    margin-right: 64px;
     padding: 25px;
 }
 .appieTemp{
@@ -346,16 +338,13 @@ button#getstarted{
 .VideoP{
     height: 70px;
     width: 70px;
-    line-height: 42px;
-    top: 100px;
-    text-align: center;
-    margin-left:500px;
+    top: 64px;
+    margin-left:485px;
     border-radius: 50%;
     background: cornsilk;
     position: relative;
-    z-index: 5;
     margin-bottom: 25px;
-    padding: 10px;
+    padding: 1px;
 }
 .VideoP a i{
     color: #ff5f4a;
@@ -366,8 +355,6 @@ button#getstarted{
 
 /* body part-4  Appie lets you launch your app in minutes.. ... start */
 #services_1{
-    width: 85%;
-    margin-left: 73px;
     margin-top: 115px;
 }
 .row{
@@ -499,16 +486,23 @@ button#getstarted{
 .android{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 70%;
-    margin-bottom: 80px;
-    margin-left: 145px;
+
+}
+.app{
+    background-color: rgb(241, 243, 239);
+    padding: 15px;
+    border-radius: 10px;
+}
+.app img{
+    margin-top: 80px;
+    margin-right: 46px;
 }
  .app h4{
         font-size: 34px;
         font-weight:700;
         margin-bottom: 8px;
-        color: #0e1133;   
+        color: #0e1133;  
+        text-align: center; 
 }
 .app p{
     font-size: 16px;
@@ -517,13 +511,17 @@ button#getstarted{
     color: #505056;
     margin: 0px;
     margin-bottom: 30px;  
+    text-align: center;
 }
-
+.main-btn{
+    text-align: center;
+}
 
 .main-btn a{
     text-decoration: none;
     color: #0e1133;
     padding: 10px 15px;
+    text-align: center;
     
 }
 .main-btn a:hover{
@@ -533,6 +531,9 @@ button#getstarted{
     color: #fff;
     transition: 1s;
 }
+.main-btn-1{
+    text-align: center;
+}
 .main-btn-1 a{
     background-color: #ff6b58;
     padding: 15px;
@@ -540,19 +541,14 @@ button#getstarted{
     color: #fff;
     text-decoration: none;
     
+    
 }
 .main-btn-1 a:hover{
     color: #0e1133;
     background: none;
     transition: 1s;
 }
-.androidImg{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-   width: 85%;
-   margin-left: 110px;
-}
+
 
 /* body part-6  Download app today!. ... end */
 
@@ -561,7 +557,7 @@ button#getstarted{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 135px;
-    margin-left: 141px;
+
 }
 .teamPart{
     display: flex;
@@ -615,11 +611,9 @@ cursor: pointer;
 .BGProject{
     background-color: #ff6b58;
     border-radius: 26px;
-    margin-left: 114px;
     margin-bottom: 100px;
-    height: 180px;
     padding: 25px;
-    width: 80%;
+ 
 }
 .Project{
     display: flex;
@@ -653,8 +647,6 @@ border-radius: 5px;
 .footerpart{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-left: 106px;
-    width: 94%;
     gap: 33px;
 }
 
@@ -762,7 +754,6 @@ color: #505056;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 73px;
     margin-top: 80px;
     margin-bottom: 50px;  
 }
@@ -804,8 +795,40 @@ align-items: center;
 /*--  part-9  footer part. ... end */
 /*-- Responsive Design--*/
 
- @media screen and (max-width:700px){
+ @media screen and (max-width:767px){
+  /* #TopBar{
+       flex-direction: column;
+   }
+    .TopBarFlex{
+       flex-direction: column;
+       
+   }
+   
+    .logoAndMenu{
+       flex-direction: column;
+   }
+   .menu ul{
+       flex-direction: column;
+      
+   }
+   .menu ul li {
+    background-color: black;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+   }
+   .loginbtn{
+       flex-direction: column;
+   } */
+   h1, h2, h3, h4, h5, h6{
+       text-align: center;
+   }
+.container{
+    width: auto;
+}
  .appieIconPart{
+     display: grid;
      grid-template-columns: repeat(1, 1fr);
  }
  .HomeSlider{
@@ -831,4 +854,48 @@ font-size: 30px;
      display: grid;
      grid-template-columns: repeat(1, 1fr);
  }
+ .Design{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+ }
+ .androidImg{
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     margin-bottom: 25px;
+ }
+ 
+ .appieImage{
+     display: none;
+ }
+.android{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(1, fr);
+}
+.team{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.teamPart{
+    flex-direction: column;
+}
+.teamPart img{
+    width: 50%;
+    align-items: center;
+    margin-right: 50px;
+}
+.Project{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.footerpart{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.Fcopyright{
+    flex-direction: column;
+}
  }
