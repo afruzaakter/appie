@@ -832,6 +832,7 @@ align-items: center;
     font-size: 40px;
     padding: 38px 36px;
     line-height: 40px;
+    margin-top: 160px;
 }
  .appieIconPart{
      display: grid;
@@ -867,6 +868,12 @@ font-size: 30px;
 .appieTemH h3{
     font-size: 30px;
     line-height: 40px;
+}
+.appieTemH h4{
+    font-size: 15px;
+}
+.appieTemHD h1{
+    font-size: 40px;
 }
 .appieTemH p{
     font-size: 16px;
@@ -940,7 +947,26 @@ width: 50%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
+.social{
+    text-align: center;
+    align-items: center;
+}
+.Fmenu ul{
+    text-align: center;
+}
+.Support ul{
+    text-align: center;
+}
+.Contact ul{
+    text-align: center;
+}
 .Fcopyright{
     flex-direction: column;
+}
+.download ul{
+    flex-direction: column;
+}
+.copyright h4{
+    margin-top: 40px;
 }
  }
