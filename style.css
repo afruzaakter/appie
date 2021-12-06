@@ -109,8 +109,13 @@ button#getstarted{
 /* header part end */
 /*body part-1 way to creative ... start*/
 #BG{
-    background-color: darkblue;
-    width: 100%;
+    background-image: url(images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: visible;
+    padding-top: 135px;
+    padding-bottom: 0px;
 }
 .HomeSlider{
     text-align: center;
@@ -786,34 +791,10 @@ align-items: center;
     margin-right: 5px;
 }
 /*--  part-9  footer part. ... end */
-/*-- Responsive Design--*/
 
+/*--mobile- Responsive Design start -*/
  @media screen and (max-width:767px){
-  /* #TopBar{
-       flex-direction: column;
-   }
-    .TopBarFlex{
-       flex-direction: column;
-       
-   }
-   
-    .logoAndMenu{
-       flex-direction: column;
-   }
-   .menu ul{
-       flex-direction: column;
-      
-   }
-   .menu ul li {
-    background-color: black;
-    text-align: center;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 10px 0;
-   }
-   .loginbtn{
-       flex-direction: column;
-   } */
+ 
    h1, h2, h3, h4, h5, h6, p{
        text-align: center;
    }
@@ -823,9 +804,10 @@ align-items: center;
 .container{
     width: auto;
 }
-.BG{
-    width: 100%;
-    background-color: darkblue;
+#BG{
+    padding-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .HomeSlider h1{
     text-align: start;
@@ -970,8 +952,70 @@ width: 50%;
     margin-top: 40px;
 }
  }
+/*--mobile- Responsive Design end -*/
+/*--Tablet- Responsive Design start -*/
+
+@media screen and (max-width:1024px){
+    .container{
+        width: auto;
+    }
+    #BG{
+        width: 100%;
+        background: darkblue;
+    }
+    
+}
+/*--Tablet- Responsive Design start -*/
+#BG{
+    width: 100%;
+}
+.HomeSlider h1{
+    font-size: 40px;
+    text-align: center;
+    padding:0px 73px;
+}
+.icon h2{
+    font-size: 15px;
+}
+
+.appieIconPart{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.appietemplate{
+    flex-direction: column;
+}
+.VideoP{
+    right: 428px;
+    display: none;
+}
+.appieTemp{
+    margin-top: 20px;
+}
+.appieImage img{
+    width: 80%;
+}
+
+.appieTemH h3{
+    font-size: 30px;
+}
+.picon h5{
+    font-size: 10px;
+}
+.app img{
+    width: 90%;
+}
+.teamPart img{
+    width: 50%;
+    height: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
 
  /*  navigation bar start */
+ 
  .Rmenu .checkbtn{
      font-size: 30px;
      color: #fff;
@@ -989,6 +1033,7 @@ width: 50%;
  .Rmenu{
      
  }
+ 
  @media screen and (max-width:767px){
      .loginbtn{
          display: none;
