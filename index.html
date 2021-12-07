@@ -11,6 +11,7 @@
 </head>
 <body>
     <!--header part start-->
+    
     <header id="TopBar">
         <nav>  
             <div class="TopBarFlex">
@@ -28,6 +29,7 @@
                      <i class="fas fa-bars"></i>
                     </label>
                   </div>
+                
                    <ul>
                   <li><a class="active" href="#">Home <i class="fas fa-angle-down"></i></a>
                   </li>
@@ -49,7 +51,9 @@
                 </div>
             </div>
         </nav>
+        <div class="toggle-menu"><i class="fas fa-bars"></i></div>
     </header>
+
     <!--header part end-->
 <!--body part-1 way to creative ... start -->
 <section id="BG">
@@ -141,15 +145,15 @@
              </div>
              <div class="appieARU">
                 <div class="Review">
-                    <h2>700k</h2>
+                    <h2 class="counter">700</h2><span>K</span>
                     <p>App Downloads</p>
                 </div>
                 <div class="Review">
-                    <h2>476+</h2>
+                    <h2 class="counter">476</h2><span>+</span>
                     <p>Average Review</p>
                 </div>
                 <div class="Review">
-                    <h2>30M</h2>
+                    <h2 class="counter">30</h2><span>M</span>
                     <p>Active Users</p>
                 </div>
         
@@ -394,6 +398,20 @@
     </div>
 </footer>
 <!-- body part-8   footer part ... end -->
+<!--counter JQ start-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+<script>
+    jQuery(document).ready(function($){
+        $(".counter").counterUp({
+            delay: 10,
+            time: 1200
+        });
+    });
+</script>
+<!--counter JQ end-->
 
 </body>
 </html>
